@@ -16,22 +16,23 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+
     CGRect frame = CGRectMake(50, 50, 100, 100);
+    UILabel *labelcc = [[UILabel alloc] initWithFrame:frame];
+    [labelcc setFont: [UIFont fontWithName:@"person" size:50.0]];
+    [labelcc setText: @"m"];
+    labelcc.textColor = [UIColor grayColor];
     
-    UILabel *one = [[UILabel alloc]initWithFrame:frame];
-    [one setFont:[UIFont fontWithName:@"person" size:50]];
-    [one setText:@"m"];
-    one.textColor = [UIColor grayColor];
-//    self.one.alpha = 0.5;
-     CGRect frame2 = CGRectMake(50, 50, 95, 95);
-    UILabel *two = [[UILabel alloc]initWithFrame:frame2] ;
+    CGRect frame2 = CGRectMake(55, 50, 95, 95);
+    UILabel *label3 = [[UILabel alloc] initWithFrame:frame2];
+    [label3 setText: @"OR"];
+    label3.textColor = [UIColor grayColor];
+
+    [self.view addSubview:labelcc];
+    [self.view addSubview:label3];
+  
     
-    [two setFont:[UIFont fontWithName:@"person" size:40]];
-    [two setText:@"C"];
-    two.textColor = [UIColor grayColor];
-//    two.alpha = 0.5;
-    [self.view addSubview:one];
-    [self.view addSubview:two];
+
     
 
     

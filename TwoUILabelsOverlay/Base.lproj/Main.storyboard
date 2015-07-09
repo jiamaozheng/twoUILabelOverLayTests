@@ -35,7 +35,7 @@
                                 </state>
                             </button>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" red="0.2504960329" green="0.43235155409999998" blue="0.7439827967" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
                     <connections>
                         <outlet property="button1" destination="4CL-Vk-COL" id="nj9-AY-8bt"/>
