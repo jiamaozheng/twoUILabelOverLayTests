@@ -1,0 +1,450 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		12E9D0BD1B4EE76F001C88D3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 12E9D0BC1B4EE76F001C88D3 /* main.m */; };
+		12E9D0C01B4EE76F001C88D3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 12E9D0BF1B4EE76F001C88D3 /* AppDelegate.m */; };
+		12E9D0C31B4EE76F001C88D3 /* TwoUILabelsOverlay.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 12E9D0C11B4EE76F001C88D3 /* TwoUILabelsOverlay.xcdatamodeld */; };
+		12E9D0C61B4EE76F001C88D3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 12E9D0C51B4EE76F001C88D3 /* ViewController.m */; };
+		12E9D0C91B4EE76F001C88D3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 12E9D0C71B4EE76F001C88D3 /* Main.storyboard */; };
+		12E9D0CB1B4EE76F001C88D3 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 12E9D0CA1B4EE76F001C88D3 /* Images.xcassets */; };
+		12E9D0CE1B4EE76F001C88D3 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 12E9D0CC1B4EE76F001C88D3 /* LaunchScreen.xib */; };
+		12E9D0DA1B4EE770001C88D3 /* TwoUILabelsOverlayTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 12E9D0D91B4EE770001C88D3 /* TwoUILabelsOverlayTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		12E9D0D41B4EE770001C88D3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 12E9D0AF1B4EE76F001C88D3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 12E9D0B61B4EE76F001C88D3;
+			remoteInfo = TwoUILabelsOverlay;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		12E9D0B71B4EE76F001C88D3 /* TwoUILabelsOverlay.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TwoUILabelsOverlay.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		12E9D0BB1B4EE76F001C88D3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		12E9D0BC1B4EE76F001C88D3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		12E9D0BE1B4EE76F001C88D3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		12E9D0BF1B4EE76F001C88D3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		12E9D0C21B4EE76F001C88D3 /* TwoUILabelsOverlay.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TwoUILabelsOverlay.xcdatamodel; sourceTree = "<group>"; };
+		12E9D0C41B4EE76F001C88D3 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		12E9D0C51B4EE76F001C88D3 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		12E9D0C81B4EE76F001C88D3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		12E9D0CA1B4EE76F001C88D3 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		12E9D0CD1B4EE76F001C88D3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		12E9D0D31B4EE770001C88D3 /* TwoUILabelsOverlayTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TwoUILabelsOverlayTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		12E9D0D81B4EE770001C88D3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		12E9D0D91B4EE770001C88D3 /* TwoUILabelsOverlayTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TwoUILabelsOverlayTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		12E9D0B41B4EE76F001C88D3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		12E9D0D01B4EE770001C88D3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		12E9D0AE1B4EE76F001C88D3 = {
+			isa = PBXGroup;
+			children = (
+				12E9D0B91B4EE76F001C88D3 /* TwoUILabelsOverlay */,
+				12E9D0D61B4EE770001C88D3 /* TwoUILabelsOverlayTests */,
+				12E9D0B81B4EE76F001C88D3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		12E9D0B81B4EE76F001C88D3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				12E9D0B71B4EE76F001C88D3 /* TwoUILabelsOverlay.app */,
+				12E9D0D31B4EE770001C88D3 /* TwoUILabelsOverlayTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		12E9D0B91B4EE76F001C88D3 /* TwoUILabelsOverlay */ = {
+			isa = PBXGroup;
+			children = (
+				12E9D0BE1B4EE76F001C88D3 /* AppDelegate.h */,
+				12E9D0BF1B4EE76F001C88D3 /* AppDelegate.m */,
+				12E9D0C41B4EE76F001C88D3 /* ViewController.h */,
+				12E9D0C51B4EE76F001C88D3 /* ViewController.m */,
+				12E9D0C71B4EE76F001C88D3 /* Main.storyboard */,
+				12E9D0CA1B4EE76F001C88D3 /* Images.xcassets */,
+				12E9D0CC1B4EE76F001C88D3 /* LaunchScreen.xib */,
+				12E9D0C11B4EE76F001C88D3 /* TwoUILabelsOverlay.xcdatamodeld */,
+				12E9D0BA1B4EE76F001C88D3 /* Supporting Files */,
+			);
+			path = TwoUILabelsOverlay;
+			sourceTree = "<group>";
+		};
+		12E9D0BA1B4EE76F001C88D3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				12E9D0BB1B4EE76F001C88D3 /* Info.plist */,
+				12E9D0BC1B4EE76F001C88D3 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		12E9D0D61B4EE770001C88D3 /* TwoUILabelsOverlayTests */ = {
+			isa = PBXGroup;
+			children = (
+				12E9D0D91B4EE770001C88D3 /* TwoUILabelsOverlayTests.m */,
+				12E9D0D71B4EE770001C88D3 /* Supporting Files */,
+			);
+			path = TwoUILabelsOverlayTests;
+			sourceTree = "<group>";
+		};
+		12E9D0D71B4EE770001C88D3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				12E9D0D81B4EE770001C88D3 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		12E9D0B61B4EE76F001C88D3 /* TwoUILabelsOverlay */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 12E9D0DD1B4EE770001C88D3 /* Build configuration list for PBXNativeTarget "TwoUILabelsOverlay" */;
+			buildPhases = (
+				12E9D0B31B4EE76F001C88D3 /* Sources */,
+				12E9D0B41B4EE76F001C88D3 /* Frameworks */,
+				12E9D0B51B4EE76F001C88D3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TwoUILabelsOverlay;
+			productName = TwoUILabelsOverlay;
+			productReference = 12E9D0B71B4EE76F001C88D3 /* TwoUILabelsOverlay.app */;
+			productType = "com.apple.product-type.application";
+		};
+		12E9D0D21B4EE770001C88D3 /* TwoUILabelsOverlayTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 12E9D0E01B4EE770001C88D3 /* Build configuration list for PBXNativeTarget "TwoUILabelsOverlayTests" */;
+			buildPhases = (
+				12E9D0CF1B4EE770001C88D3 /* Sources */,
+				12E9D0D01B4EE770001C88D3 /* Frameworks */,
+				12E9D0D11B4EE770001C88D3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				12E9D0D51B4EE770001C88D3 /* PBXTargetDependency */,
+			);
+			name = TwoUILabelsOverlayTests;
+			productName = TwoUILabelsOverlayTests;
+			productReference = 12E9D0D31B4EE770001C88D3 /* TwoUILabelsOverlayTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		12E9D0AF1B4EE76F001C88D3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = "Emerge Media";
+				TargetAttributes = {
+					12E9D0B61B4EE76F001C88D3 = {
+						CreatedOnToolsVersion = 6.3.2;
+					};
+					12E9D0D21B4EE770001C88D3 = {
+						CreatedOnToolsVersion = 6.3.2;
+						TestTargetID = 12E9D0B61B4EE76F001C88D3;
+					};
+				};
+			};
+			buildConfigurationList = 12E9D0B21B4EE76F001C88D3 /* Build configuration list for PBXProject "TwoUILabelsOverlay" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 12E9D0AE1B4EE76F001C88D3;
+			productRefGroup = 12E9D0B81B4EE76F001C88D3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				12E9D0B61B4EE76F001C88D3 /* TwoUILabelsOverlay */,
+				12E9D0D21B4EE770001C88D3 /* TwoUILabelsOverlayTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		12E9D0B51B4EE76F001C88D3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				12E9D0C91B4EE76F001C88D3 /* Main.storyboard in Resources */,
+				12E9D0CE1B4EE76F001C88D3 /* LaunchScreen.xib in Resources */,
+				12E9D0CB1B4EE76F001C88D3 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		12E9D0D11B4EE770001C88D3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		12E9D0B31B4EE76F001C88D3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				12E9D0C31B4EE76F001C88D3 /* TwoUILabelsOverlay.xcdatamodeld in Sources */,
+				12E9D0C01B4EE76F001C88D3 /* AppDelegate.m in Sources */,
+				12E9D0C61B4EE76F001C88D3 /* ViewController.m in Sources */,
+				12E9D0BD1B4EE76F001C88D3 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		12E9D0CF1B4EE770001C88D3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				12E9D0DA1B4EE770001C88D3 /* TwoUILabelsOverlayTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		12E9D0D51B4EE770001C88D3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 12E9D0B61B4EE76F001C88D3 /* TwoUILabelsOverlay */;
+			targetProxy = 12E9D0D41B4EE770001C88D3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		12E9D0C71B4EE76F001C88D3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				12E9D0C81B4EE76F001C88D3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		12E9D0CC1B4EE76F001C88D3 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				12E9D0CD1B4EE76F001C88D3 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		12E9D0DB1B4EE770001C88D3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		12E9D0DC1B4EE770001C88D3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		12E9D0DE1B4EE770001C88D3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TwoUILabelsOverlay/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		12E9D0DF1B4EE770001C88D3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TwoUILabelsOverlay/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		12E9D0E11B4EE770001C88D3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = TwoUILabelsOverlayTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TwoUILabelsOverlay.app/TwoUILabelsOverlay";
+			};
+			name = Debug;
+		};
+		12E9D0E21B4EE770001C88D3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = TwoUILabelsOverlayTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TwoUILabelsOverlay.app/TwoUILabelsOverlay";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		12E9D0B21B4EE76F001C88D3 /* Build configuration list for PBXProject "TwoUILabelsOverlay" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				12E9D0DB1B4EE770001C88D3 /* Debug */,
+				12E9D0DC1B4EE770001C88D3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		12E9D0DD1B4EE770001C88D3 /* Build configuration list for PBXNativeTarget "TwoUILabelsOverlay" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				12E9D0DE1B4EE770001C88D3 /* Debug */,
+				12E9D0DF1B4EE770001C88D3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		12E9D0E01B4EE770001C88D3 /* Build configuration list for PBXNativeTarget "TwoUILabelsOverlayTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				12E9D0E11B4EE770001C88D3 /* Debug */,
+				12E9D0E21B4EE770001C88D3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		12E9D0C11B4EE76F001C88D3 /* TwoUILabelsOverlay.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				12E9D0C21B4EE76F001C88D3 /* TwoUILabelsOverlay.xcdatamodel */,
+			);
+			currentVersion = 12E9D0C21B4EE76F001C88D3 /* TwoUILabelsOverlay.xcdatamodel */;
+			path = TwoUILabelsOverlay.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 12E9D0AF1B4EE76F001C88D3 /* Project object */;
+}
