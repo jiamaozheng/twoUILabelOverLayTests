@@ -15,6 +15,7 @@
 		12E9D0CB1B4EE76F001C88D3 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 12E9D0CA1B4EE76F001C88D3 /* Images.xcassets */; };
 		12E9D0CE1B4EE76F001C88D3 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 12E9D0CC1B4EE76F001C88D3 /* LaunchScreen.xib */; };
 		12E9D0DA1B4EE770001C88D3 /* TwoUILabelsOverlayTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 12E9D0D91B4EE770001C88D3 /* TwoUILabelsOverlayTests.m */; };
+		12E9D0E41B4EE844001C88D3 /* person.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 12E9D0E31B4EE7F9001C88D3 /* person.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +43,7 @@
 		12E9D0D31B4EE770001C88D3 /* TwoUILabelsOverlayTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TwoUILabelsOverlayTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		12E9D0D81B4EE770001C88D3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		12E9D0D91B4EE770001C88D3 /* TwoUILabelsOverlayTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TwoUILabelsOverlayTests.m; sourceTree = "<group>"; };
+		12E9D0E31B4EE7F9001C88D3 /* person.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = person.ttf; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 		12E9D0BA1B4EE76F001C88D3 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				12E9D0E31B4EE7F9001C88D3 /* person.ttf */,
 				12E9D0BB1B4EE76F001C88D3 /* Info.plist */,
 				12E9D0BC1B4EE76F001C88D3 /* main.m */,
 			);
@@ -202,6 +205,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				12E9D0E41B4EE844001C88D3 /* person.ttf in Resources */,
 				12E9D0C91B4EE76F001C88D3 /* Main.storyboard in Resources */,
 				12E9D0CE1B4EE76F001C88D3 /* LaunchScreen.xib in Resources */,
 				12E9D0CB1B4EE76F001C88D3 /* Images.xcassets in Resources */,
