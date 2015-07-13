@@ -27,6 +27,8 @@
 
 @property (strong, nonatomic) UILabel *labelc;
 @property (strong, nonatomic) UILabel *labelcc;
+//@property (weak, nonatomic) IBOutlet UIView *line;
+@property (strong, nonatomic) UILabel *line;
 
 @end
 
